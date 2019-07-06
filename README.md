@@ -7,7 +7,9 @@
 # 学习内容
 
 ✔️掌握前端技术HTML5+CSS+JS
+
 ✔️学习一些常用框架，如Bootstrap、jQuery
+
 ✔️初步了解express搭建后端服务器
 
 ## 实验1 HTML元素分析

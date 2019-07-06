@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Xuan (you@example.org)
+ * @date    2018-04-13 19:09:07
+ * @version $Id$
+ */
+
+body {
+    width: 306px;
+    height: 770px;
+    border: 1px solid black;
+}
+
+.container1 {
+    width: 290px;  
+    background-color: #FFF;
+    border-collapse: collapse;
+    margin-left: 8px;
+}
+
+.container1 tr {
+    font-size: 13px;
+}
+
+.container1 tr:first-child {
+    height: 55px;
+    line-height: 45px;
+    font-size: 32px;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.container1 tr:last-child {
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 10px solid black;
+}
+
+.container2 {
+    width: 298px;
+    font-size: 13px;
+    border-collapse: collapse;
+    margin-left: 8px;
+}
+
+.container2 tr {
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+
+.container2 tr:first-child {
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+}
+
+.container2 tr:nth-child(2) {
+    height: 29px;
+    border-bottom: 5px solid black;
+}
+
+.container2 tr:nth-child(4) {
+    height: 0.1px;
+    border-width: 0;
+}
+
+.container2 tr:nth-child(5) {
+    height: 0.1px;
+    border-width: 0;
+}
+
+.container2 tr:nth-child(6) {
+    height: 0.1px;
+    border-width: 0;
+}
+
+.container2 tr:nth-child(7) {
+    height: 0.1px;
+    border-width: 0;
+}
+
+.container2 tr:nth-child(11) {
+    height: 0.1px;
+    border-width: 0;
+}
+
+.container2 tr:nth-child(12) {
+    height: 0.1px;
+    border-width: 0;
+}
+
+.container2 tr:nth-child(13) {
+    height: 0.1px;
+    border-width: 0;
+}
+
+.container2 tr:nth-child(14) {
+    height: 0.1px;
+    border-width: 0;
+}
+
+.container2 tr:last-child {
+    height: 33px;
+    border-bottom: 10px solid black;
+}
+
+.container3 {
+    width: 290px;
+    font-size: 13px;
+    border-collapse: collapse;
+    margin-left: 8px;
+}
+
+.container3 tr {
+    height: 0.1px;
+    line-height: 0.1px;
+    border-bottom: 1px solid black;
+}
+
+.container4 {
+    width: 298px;
+    height: 45px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.container4 tr{
+    height: 12px;
+    line-height: 12px;
+}
+
+.container4 tr:first-child{
+    height: 21px;
+    line-height: 10px;
+    vertical-align: bottom;
+}
+
+.container5 {
+    width: 290px;
+    border-collapse: collapse;
+    border-bottom: 1px solid gray;
+    margin-left: 8px;
+}
+
+.container5 tr {
+    text-align: left;
+    font-size: 4px;
+    line-height: 14px;
+}
+
+.container5 tr:first-child {
+    border-bottom: 1px solid black;
+}
+
+.tip {
+    height: 20px;
+    line-height: 8px;
+    font-size: 12px;
+    text-indent: 6px;
+}
+
+.note {
+    text-indent: 45px;
+    line-height: 26px;
+}
+
+.sapce {
+    width: 1px;
+}
+
+.indent {
+    text-indent: 1.25em;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}

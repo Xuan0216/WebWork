@@ -1,0 +1,27 @@
+<html>
+    <head>  
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>是实验3呢</title>
+        <link href="table.css" rel="stylesheet">
+    </head>
+    <body>
+        <table id="tbl">
+            <tr>
+                <td onclick="setbgColor()">11</td>
+                <td onclick="showDate()">12</td>
+            </tr>
+            <tr>
+                <td onclick="addRow()">21</td>
+                <td onclick="delRow()">22</td>
+            </tr>
+            <tr>
+                <td onclick="showCoords(event)" id="Coord">31</td>
+                <td onclick="openPage()">32</td>
+            </tr>
+        </table>
+    </body>
+    
+    <!--script 最好放在body之后，处理交互事件，等到内容显示之后-->
+    <script src="table.js"></script>
+</html>

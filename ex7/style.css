@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Xuan (849651526@qq.com)
+ * @date    2018-04-27 09:06:18
+ * @version $Id$
+ */
+
+body {
+    background-color: #FFF;
+}
+
+.g-index {
+    margin: 0 auto;
+    width: 685px;
+}
+
+.g-bo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 685px;
+    border-bottom: 1px solid #DDDBDD;
+}
+
+.g-hd {
+    height: 105px;
+}
+
+.m1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 685px;
+}
+
+.m-nav {
+    height: 22px;
+    border-bottom: 4px solid #1D89C5;
+}
+
+.m-way {
+    width: 80px;
+    height: 26px;
+    background-color: #1D89C5;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.m-mor {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: #FF4002;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.m-dt {
+    display: flex;
+    flex-wrap: wrap;
+    height: 53px;
+    border-left: 1px solid #DDDBDD;
+    border-right: 1px solid #DDDBDD;
+    background-color: #F5F6F6;
+    font-size: 15px;
+    font-family: '宋体';
+}
+
+.m2 {
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.m-beg {
+    margin-left: 10px;
+    width: 143px;
+}
+
+.m-tot {
+    width: 37px;
+}
+
+.m-mon {
+    width: 490px;
+}
+
+.m-tim {
+    margin-left: 10px;
+    width: 65px;
+}
+
+.m-min {
+    width: 78px;
+}
+
+.m-tak {
+    width: 112px;
+}
+
+.m-chg {
+    width: 33px;
+}
+
+.m-one {
+    width: 44px;
+}
+
+.m-dis {
+    width: 320px;
+}
+
+.m-ic {
+    display: flex;
+    align-items: center;
+    width: 683px;
+    height: 25px;
+    background-color: #FFFBDE;
+    border-top: 1px solid #DDDBDD;
+    border-left: 1px solid #DDDBDD;
+    border-right: 1px solid #DDDBDD;
+}
+
+.m-ic-word {
+    width: 35px;
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.g-tl {
+    height: 15px;
+    margin-top: 8px;
+    margin-bottom: 1px;
+    background-color: #CEDCE8;
+    font-size: 12px;
+    color: #8097AA;
+}
+
+.m-chn,
+.m-pos,
+.m-fee,
+.m-spe {
+    border-right: 1px solid #FFF;
+}
+
+.m-chn,
+.m-plc,
+.m-wait {
+    width: 400px;
+}
+
+.m-pos,
+.m-sta,
+.m-blk {
+    width: 65px;
+}
+
+.m-fee,
+.m-mny {
+    width: 70px;
+}
+
+.m-spe,
+.m-spl {
+    width: 80px;
+}
+
+.m-dit,
+.m-km {
+    width: 65px;
+}
+
+.g-info {
+    height: 40px;
+    background-color: #F2F2F2;
+    border-left: 1px solid #DDDBDD;
+    border-right: 1px solid #DDDBDD;
+    font-size: 12px;
+}
+
+.m3 {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.m-plc {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.m-space {
+    width: 52px;
+}
+
+.m-name {
+    display: flex;
+    width: 280px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.m-sta {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 104px;
+    margin-left: 7px;
+}
+
+.g-mn {
+    height: 40px;
+    font-size: 14px;
+}
+
+.m-wait,
+.m-blk,
+.m-mny,
+.m-spl {
+    border-right: 1px solid #bbb;
+}
+
+.m-wait {
+    font-size: 12px;
+}
+
+.m-wait-time {
+    display: flex;
+    flex-wrap: wrap;
+    width: 110px;
+}
+
+.m-wait-pos {
+    margin-left: 6px;
+    width: 296px;
+    color: #3F8EBA;
+    font-size: 14px;
+}
+
+.m-spl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*以下为常用格式*/
+
+a {
+    display: flex;
+    align-items: center;
+    width: 42px;
+    height: 40px;
+    font-size: 12px;
+    color: #002CBD;
+}
+
+.red {
+    color: #D72320;
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.line {
+    width: 8px;
+    height: 100%;
+    background-color: #D1E6ED;
+}
+
+.new {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+hr {
+    border-left: 2px dotted #FFF;
+}
+
+
+/* 通过矢量字体实现图标 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?wc1if3');
+    src: url('fonts/icomoon.eot?wc1if3#iefix') format('embedded-opentype'), 
+         url('fonts/icomoon.ttf?wc1if3') format('truetype'), 
+         url('fonts/icomoon.woff?wc1if3') format('woff'), 
+         url('fonts/icomoon.svg?wc1if3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-printer:before {
+    content: "\e900";
+}
+
+.icon-bus1:before {
+    content: "\e914";
+    color: #1296db;
+    font-size: 24px;
+}
+
+.icon-bus2:before {
+    content: "\e915";
+    color: #009462;
+    font-size: 24px;
+}
+
+.icon-cloud:before {
+    content: "\e916";
+    color: #1296db;
+}
+
+.icon-file:before {
+    content: "\e917";
+}
+
+.icon-frame:before {
+    content: "\e918";
+    color: #1296db;
+    font-size: 12px;
+}
+
+.icon-rectangle:before {
+    content: "\e919";
+    color: #1296db;
+}

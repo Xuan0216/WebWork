@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Xuan (you@example.org)
+ * @date    2018-04-09 15:08:27
+ * @version $Id$
+ */
+.rectangle {
+    width: 200px;
+    height: 200px;
+    background-color: #DDDDDD;
+}
+
+.triangle-topleft-l {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #FF6600;
+    border-right: 100px solid rgba(0,0,0,0);
+}
+
+.triangle-topleft-s {
+    width: 0;
+    height: 0;
+    border-top: 60px solid #FFF;
+    border-right: 60px solid rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+}

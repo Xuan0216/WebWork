@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Xuan (you@example.org)
+ * @date    2018-04-20 16:22:33
+ * @version $Id$
+ */
+
+body {
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+.container {
+    width: 1210px;
+    height: 780px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cnt {
+    width: 390px;
+    height: 370px;
+    margin: 5px;
+    box-sizing: content-box;
+    background-color: #FFF;
+    border: 1px solid #bbb;
+}
+
+.cnt1 {
+    width: 390px;
+    height: 260px;
+    box-sizing: border-box;
+}
+
+.cnt2 {
+    width: 390px;
+    height: 110px;
+    box-sizing: content-box;
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cnt2 .box1 {
+    width: 370px;
+    height: 20px;
+    margin: 10px 10px 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 6px;
+}
+
+.cnt2 .box2 {
+    width: 370px;
+    height: 20px;
+    margin: 10px 10px 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 2px;
+}
+
+.cnt2 .box2 .present {
+    display: flex;
+    align-self: flex-end;
+    margin-left: 5px;
+}
+
+.cnt2 .box2 .discount {
+    color: red;
+}
+
+.cnt2 .box2 .detail {
+    color: #A4A4A4;
+}
+
+.cnt2 .box3 {
+    width: 370px;
+    height: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: baseline;
+}
+
+.cnt2 .box3 .symbol {
+    margin-top: 8px;
+    text-indent: 6px;
+    font-size: 4px;
+    font-weight: bold;
+    color: red;
+    display: flex;
+}
+
+.cnt2 .box3 .price {
+    font-size: 26px;
+    font-weight: bold;
+    color: red;
+    display: flex;
+}
+
+.cnt2 .box3 .original {
+    text-indent: 10px;
+    font-size: 2px;
+    color: gray;
+    display: flex;
+}
+
+.cnt2 .box3 .num {
+    font-size: 2px;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.cnt2 .box3 .sold {
+    font-size: 2px;
+    color: gray;
+    display: flex;
+    align-self: flex-end;
+}

@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Xuan (you@example.org)
+ * @date    2018-04-08 08:29:53
+ * @version $Id$
+ */
+body {
+    width: 575px;
+    height: 963px;
+    border: 2px solid #EEE;
+    border-top: none;
+    background-color: #FFF;
+}
+
+.box1 {
+    width: 575px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #F7F7F7;
+    border-bottom: 2px solid #EEE;
+    text-align: center;
+    font-style: normal;
+    font-size: 22px;
+    color: #3d3d3d;
+    position: relative;
+    top: 0;
+}
+
+.box1-1 {
+    width: 115px;
+    height: 50px;
+    background-color: #FFF;
+    border-top: 2px solid #EEE;
+    border-bottom: 2px solid #FFF;
+    border-right: 2px solid #EEE;
+    font-weight: bold;
+    color: #3c3c3c;
+    position: absolute;
+}
+
+.box1-2 {
+    width: 115px;
+    height: 50px;
+    border-top: 2px solid #EEE;
+    position: absolute;
+    left: 115px;
+}
+
+.box1-3 {
+    width: 115px;
+    height: 50px;
+    border-top: 2px solid #EEE;
+    position: absolute;
+    left: 230px;
+}
+
+.box1-4 {
+    width: 115px;
+    height: 50px;
+    border-top: 2px solid #EEE;
+    position: absolute;
+    left: 345px;
+}
+
+.box1-5 {
+    width: 115px;
+    height: 50px;
+    border-top: 2px solid #EEE;
+    position: absolute;
+    left: 460px;
+}
+
+.box2 {
+    width: 575px;
+    height: 118px;
+    border-bottom: 2px solid #EEE;
+}
+
+.text2-1 {
+    width: 520px;
+    height: 38px;
+    margin: 25px 25px 0 25px;
+    border: 1px solid #666;
+}
+
+.text2-2 {
+    width: 520px;
+    height: 38px;
+    margin: 12px 25px 0 25px;
+    border: 1px solid #666;
+}
+
+.box3 {
+    width: 575px;
+    height: 220px;
+    border-bottom: 2px solid #EEE;
+    text-align: center;
+    font-style: "SimHei";
+    font-size: 23px;
+    color: #FFF;
+}
+
+.text3-2 {
+    width: 365px;
+    height: 35px;
+    border: 1px solid #666;
+    position: absolute;
+    left: 191px;
+    top: 242px;
+}
+
+.text3-3 {
+    width: 365px;
+    height: 35px;
+    border: 1px solid #666;
+    position: absolute;
+    left: 191px;
+    top: 292px;
+}
+
+.btn3-4 {
+    width: 185px;
+    height: 50px;
+    line-height: 45px;
+    margin: 20px 25px 0 25px;
+    background-color: #FF4401;
+}
+
+.btn3-5 {
+    width: 150px;
+    height: 50px;
+    line-height: 45px;
+    background-color: #FF4401;
+    position: absolute;
+    left: 240px;
+    top: 370px;
+}
+
+.btn3-6 {
+    width: 150px;
+    height: 50px;
+    line-height: 45px;
+    background-color: #FF4401;
+    position: absolute;
+    left: 408px;
+    top: 370px;
+}
+
+.box4 {
+    width: 575px;
+    height: 64px;
+    border-bottom: 2px solid #EEE;
+}
+
+.text4-1 {
+    width: 520px;
+    height: 38px;
+    margin: 25px 25px 25px 25px;
+    border: 1px solid #666;
+}
+
+.box5 {
+    width: 575px;
+    height: 290px;
+    border-bottom: 2px solid #EEE;
+    text-align: center;
+    font-style: "宋体";
+    font-size: 23px;
+    color: #7f7f7f;
+}
+
+.box5-1 {
+    width: 230px;
+    height: 290px;
+    border-right: 2px solid #EEE;
+}
+
+.box5-21 {
+    width: 115px;
+    height: 145px;
+    border-right: 2px solid #EEE;
+    border-bottom: 2px solid #EEE;
+    position: absolute;
+    left: 240px;
+    top: 536px;
+}
+
+.box5-22 {
+    width: 115px;
+    height: 145px;
+    border-right: 2px solid #EEE;
+    border-bottom: 2px solid #EEE;
+    position: absolute;
+    left: 355px;
+    top: 536px;
+}
+
+.box5-23 {
+    width: 115px;
+    height: 145px;
+    border-bottom: 2px solid #EEE;
+    position: absolute;
+    left: 470px;
+    top: 536px;
+}
+
+.box5-24 {
+    width: 115px;
+    height: 145px;
+    border-right: 2px solid #EEE;
+    position: absolute;
+    left: 240px;
+    top: 683px;
+}
+
+.box5-25 {
+    width: 115px;
+    height: 145px;
+    border-right: 2px solid #EEE;
+    position: absolute;
+    left: 355px;
+    top: 683px;
+}
+
+.box5-26 {
+    width: 115px;
+    height: 145px;
+    position: absolute;
+    left: 470px;
+    top: 683px;
+}
+
+.box5-3 {
+    width: 575px;
+    height: 148px;
+}
+
+.box5-31 {
+    width: 115px;
+    height: 144px;
+    border-right: 2px solid #EEE;
+    position: absolute;
+    left: 10px;
+    top: 828px;
+}
+
+.box5-32 {
+    width: 115px;
+    height: 144px;
+    border-right: 2px solid #EEE;
+    position: absolute;
+    left: 125px;
+    top: 828px;
+}
+
+.box5-33 {
+    width: 115px;
+    height: 144px;
+    border-right: 2px solid #EEE;
+    position: absolute;
+    left: 240px;
+    top: 828px;
+}
+
+.box5-34 {
+    width: 115px;
+    height: 144px;
+    border-right: 2px solid #EEE;
+    position: absolute;
+    left: 355px;
+    top: 828px;
+}
+
+.box5-35 {
+    width: 115px;
+    height: 144px;
+    border-right: none;
+    position: absolute;
+    left: 470px;
+    top: 828px;
+}
+
+.square-image {
+    width: 125px;
+    height: 125px;
+    margin: 18px 25px 0 25px;
+    background-color: #FF4401;
+}
+
+.rect-image {
+    width: 85px;
+    height: 125px;
+    background-color: #FF4401;
+    position: relative;
+    left: 75px;
+    top: 60px;
+}
+
+.rect-image > span {
+    position: relative;
+    top: 150px;
+}
+
+.s-image {
+    width: 70px;
+    height: 70px;
+    background-color: #FF4401;
+    position: relative;
+    left: 23px;
+    top: 25px;
+}
+
+.s-image > span {
+    position: relative;
+    top: 75px;
+}

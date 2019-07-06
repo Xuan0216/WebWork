@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Xuan (you@example.org)
+ * @date    2018-04-20 14:45:09
+ * @version $Id$
+ */
+
+body {
+    width: 390px;
+    height: 370px;
+    border: 1px solid black;
+    background-color: #99BD90;
+}
+
+.cnt {
+    width: 390px;
+    height: 370px;
+    box-sizing: border-box;
+    background-color: #CDD3F5;
+}
+
+.cnt1 {
+    width: 390px;
+    height: 260px;
+    box-sizing: border-box;
+    background-color: #FFFFEB;
+    border-bottom: 1px solid black;
+}
+
+.cnt2 {
+    width: 390px;
+    height: 110px;
+    box-sizing: content-box;
+    background-color: #FFE6F4;
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cnt2 .box1 {
+    width: 370px;
+    height: 20px;
+    margin: 10px 10px 0 10px;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 2px;
+    font-weight: bold;
+    text-indent: 1em;
+}
+
+.cnt2 .box2 {
+    width: 370px;
+    height: 20px;
+    margin: 10px 10px 0 10px;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 1px;
+    font-weight: bold;
+    text-indent: 1em;
+    color: red;
+}
+
+.cnt2 .box3 {
+    width: 370px;
+    height: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: 1px solid black;
+    display: flex;
+    align-items: baseline;
+}
+
+.cnt2 .box3 .symbol {
+    margin-top: 8px;
+    text-indent: 1em;
+    font-size: 4px;
+    font-weight: bold;
+    color: red;
+    display: flex;
+}
+
+.cnt2 .box3 .price {
+    font-weight: bold;
+    color: red;
+    display: flex;
+}
+
+.cnt2 .box3 .original {
+    text-indent: 10px;
+    font-size: 2px;
+    display: flex;
+}
+
+.cnt2 .box3 .space {
+    width: 130px;
+} 
+
+.cnt2 .box3 .sold {
+    font-size: 2px;
+    display: flex;
+    align-content: flex-end;
+}

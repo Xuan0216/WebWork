@@ -1,0 +1,455 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Xuan (chen.ming.xuan@qq.com)
+ * @date    2018-05-11 09:11:25
+ * @version $Id$
+ */
+
+
+/*cover the original style*/
+
+select,
+button {
+    border-width: 0;
+}
+
+
+/*The navigation bar*/
+
+.form-inline {
+    position: relative;
+    left: -6px;
+    margin-left: -8px;
+    margin-right: -10px;
+}
+
+.form-inline select {
+    width: 25%;
+    font-size: 14px;
+}
+
+.form-inline input {
+    width: 68%;
+    height: 25px;
+    background-color: #FFF;
+    border: none;
+}
+
+.form-inline button {
+    width: 7%;
+    height: 25px;
+    border: none;
+    background-color: #FFF;
+}
+
+
+/*box definition of main content section*/
+
+/*The first box*/
+
+.l-box-f {
+    margin-top: 21px;
+    height: 270px;
+    background: #666;
+}
+
+
+/*The second box*/
+
+.l-box-s {
+    padding-top: 6px;
+    font-size: 20px;
+}
+
+
+/*The third big box(including 6 lines)*/
+
+.l-box-t {
+    margin: 15px 1px 0 1px;
+}
+
+
+/*The box on the left of the first line*/
+
+.l-box-t-1 {
+    padding-top: 10px;
+    padding-left: 12px;
+    line-height: 20px;
+    height: 213px;
+    border: 1px solid #CCC;
+    word-wrap: break-word;
+    color: #666;
+}
+
+.l-box-t-1-title {
+    padding-top: 10px;
+}
+
+.l-box-t-1-text {
+    padding-top: 15px;
+    height: 140px;
+    line-height: 23px;
+    text-indent: 1.8em;
+    color: #AAA;
+}
+
+/*The box on the right of the first line*/
+
+.l-box-t-2 {
+    height: 213px;
+    border: 1px solid #CCC;
+}
+
+.l-box-t-2-text {
+    height: 46px;
+}
+
+
+/*The box of the second line*/
+
+.l-box-t-3 {
+    height: 218px;
+    border: 1px solid #CCC;
+    border-top: 0;
+}
+
+.l-box-t-3-text {
+    height: 45px;
+}
+
+
+/*The box of the third line*/
+
+.l-box-t-4 {
+    height: 300px;
+    border: 1px solid #CCC;
+    border-top: 0;
+}
+
+.l-box-t-4-text {
+    margin-top: .4em;
+    height: 75px;
+}
+
+
+/*The box of the fifth line*/
+
+.l-box-t-5 {
+    margin: 0;
+    height: 220px;
+    border: 1px solid #CCC;
+    border-top: 0;
+}
+
+.l-box-t-5-title {
+    margin-top: 1em;
+}
+
+.l-box-t-5-text {
+    margin-top: 1.4em;
+    line-height: 25px;
+    height: 115px;
+    text-indent: 1.8em;
+    word-wrap: break-word;
+}
+
+
+/*The box of the sixth line*/
+
+.l-box-t-6 {
+    margin: 0;
+    height: 180px;
+    border: 1px solid #CCC;
+    border-top: 0;
+}
+
+.l-box-t-6-text {
+    margin-top: 1.4em;
+    line-height: 25px;
+    height: 80px;
+    text-indent: 1.8em;
+    word-wrap: break-word;
+}
+
+
+
+/*common box*/
+
+.l-box-t-greybox1 {
+    position: relative;
+    margin-top: 1em;
+    width: 99%;
+    height: 120px;
+    background: #666;
+}
+
+.l-box-t-greybox2 {
+    margin-top: 1em;
+    width: 99%;
+    height: 165px;
+    background: #666;
+}
+
+.ppt-box {
+    margin-top: 10px;
+    line-height: 12px;
+    width: 30px;
+    height: 14px;
+    background: #FF5509;
+    border-radius: 2px;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 12px;
+    color: #FFF;
+}
+
+
+
+/*box definition of sidebar*/
+
+
+/*The first box*/
+
+.r-box-f {
+    margin-top: 21px;
+    height: 270px;
+    background: #F4F4F4;
+    text-align: center;
+}
+
+.r-box-f-top {
+    height: 180px;
+    border-bottom: 1px dashed rgb(222, 222, 222);
+}
+
+.r-box-f-text {
+    padding-top: 1.5em;
+}
+
+.r-box-f-strip {
+    margin-top: 2em;
+    margin-left: 25%;
+    width: 50%;
+    height: 36px;
+    border-radius: 5px;
+    background: #009eff;
+}
+
+.r-box-f-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.r-box-f-bottom div {
+    margin-left: 5%;
+    width: 40%;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: #009eff;
+}
+
+
+/*The second box*/
+
+.r-box-s {
+    display: flex;
+    padding-top: 6px;
+    font-size: 20px;
+}
+
+.r-box-s div {
+    width: 125em;
+}
+
+.r-box-s a {
+    width: 360px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #000;
+}
+
+
+/*The third & fourth box*/
+
+.r-box-t {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 275px;
+    border: 1px solid #CCC;
+    border-bottom: 5px solid #009eff;
+}
+
+.r-box-t-greybox {
+    margin-top: 1em;
+    margin-left: .5em;
+    width: 95%;
+    height: 120px;
+    background: #666;
+}
+
+.r-box-t-greybox-start {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 342px;
+    right: 15px;
+    width: 86px;
+    height: 90px;
+    color: #FFF;
+}
+
+.r-box-t-greybox-start div {
+    position: absolute;
+    padding: 6px;
+    left: -3px;
+    top: 10px;
+    transform: rotate(45deg);
+    width: 120px;
+    text-align: center;
+    background-color: #009eff;
+}
+
+.start-top {
+    top: 632px;
+}
+
+.r-box-t-title {
+    margin-top: .3em;
+    margin-left: .5em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.r-box-t-time {
+    margin: .2em 0 .2em .9em;
+    font-size: 12px;
+    color: #7A798E;
+}
+
+.r-box-t-ct {
+    margin: .5em 0 .2em .9em;
+    font-size: 12px;
+    color: #7A798E;
+}
+
+.r-box-t-apply {
+    margin: 1.2em 0 .2em 1.2em;
+    font-size: 12px;
+    color: #7A798E;
+}
+
+
+/*The fifth box*/
+
+.r-box-i {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 230px;
+    border: 1px solid #CCC;
+}
+
+.r-box-i-top {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #CCC;
+    display: flex;
+}
+
+.r-box-i-top div {
+    width: 100em;
+}
+
+.r-box-i-top a {
+    width: 272px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #000;
+}
+
+.r-box-i-greybox {
+    margin-top: 1.4em;
+    margin-left: 4em;
+    width: 60%;
+    height: 120px;
+    background: #666;
+}
+
+.r-box-i-greybox-hiddenbox {
+    height: 80px;
+}
+
+.r-box-i-blackbox {
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+}
+
+
+
+/*self definition*/
+
+.login {
+    margin: .3em 0 .3em 0;
+}
+
+.nav-height {
+    height: 18px;
+}
+
+.form-height {
+    height: 25px;
+}
+
+.main {
+    margin-left: 6%;
+}
+
+.bg-deepblue {
+    background-color: #0069B4;
+}
+
+
+
+/*font*/
+
+.fa {
+    border-width: 0;
+}
+
+.cross {
+    font-size: 18px;
+}
+
+.read {
+    font-size: 14px;
+    color: #7A798E;
+}
+
+.text-right {
+    margin-right: 1em;
+}
+
+.fa-search {
+    color: rgb(168, 168, 168);
+}
+
+.fa-play-circle {
+    margin-top: 2.5em;
+    margin-left: .2em;
+}
+
+
+/*background color*/
+
+.bg-white {
+    background-color: #FFF;
+}

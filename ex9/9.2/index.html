@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome.min.css -->
+    <link href="../shared/css/all.css" rel="stylesheet">
+    <!-- The style that is defined to cover the original style -->
+    <link href="style.css" rel="stylesheet">
+    <title>使用Bootstrap的移动适配特性以及弹性网格布局，实现桌面系统的布局</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- The navigation bar -->
+        <div class="row bg-primary text-white">
+            <!-- The first line -->
+            <div class="col-md-10 col-xs-10"></div>
+            <div class="col-md-2 col-xs-2 login">
+                <button class="bg-primary text-white">登录</button>|
+                <button class="bg-primary text-white">注册</button>
+            </div>
+            <!-- The second line -->
+            <div class="col-md-1 col-xs-1"></div>
+            <div class="col-md-1 col-xs-1">
+                <button class="bg-deepblue text-white">首页</button>
+            </div>
+            <div class="col-md-1 col-xs-1">
+                <select class="bg-primary text-white">
+                    <option>讲座</option>
+                </select>
+            </div>
+            <div class="col-md-1 col-xs-1">
+                <button class="bg-primary text-white">悦读</button>
+            </div>
+            <div class="col-md-1 col-xs-1">
+                <button class="bg-primary text-white"> 创意榜</button>
+            </div>
+            <div class="col-md-4 col-xs-4"></div>
+            <div class="col-xs-2 col-md-2 bg-white" style="left:-6px;">
+                <form class="form-inline">
+                    <select>
+                        <option>文章</option>
+                        <option>讲座</option>
+                        <option>悦读</option>
+                        <option>创意</option>
+                    </select>
+                    <input type="search">
+                    <button type="submit">
+                        <i class="fa fa-search fa-xs"></i>
+                    </button>
+                </form>
+            </div>
+            <!-- The third line -->
+            <div class="col-md-12 col-xs-3 nav-height"></div>
+        </div>
+        <!-- Main part -->
+        <div class="row main">
+            <!-- Main Content Section -->
+            <div class="col-md-7 col-xs-7">
+                <!-- The first box -->
+                <div class="l-box-f"></div>
+                <!-- The second box -->
+                <div class="l-box-s">XXXX</div>
+                <!-- The third box -->
+                <div class="l-box-t row">
+                    <!-- The box on the left of the first line -->
+                    <div class="col-md-8 col-xs-8 l-box-t-1">
+                        <div class="cross">
+                            <div class="l-box-t-1-title">XXXXXXXXXXXXXXXXXXXXXXX</div>
+                            <div class="l-box-t-1-text">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                        </div>
+                        <div class="read">772阅读 | 0讨论</div>
+                    </div>
+                    <!-- The box on the right of the first line -->
+                    <div class="col-md-4 col-xs-4 l-box-t-2">
+                        <div class="l-box-t-greybox1"></div>
+                        <div class="l-box-t-2-text cross">XXXXXXXXXXXXX</div>
+                        <div class="read">3376阅读 | 2讨论</div>
+                    </div>
+                    <!-- The box on the left of the second line -->
+                    <div class="col-md-4 col-xs-4 l-box-t-3">
+                        <div class="l-box-t-greybox1"></div>
+                        <div>
+                            <div class="ppt-box">PPT</div>
+                            <div class="cross">XXXXXXXXXXXXXXXX</div>
+                        </div>
+                        <div class="read">34839阅读 | 250下载</div>
+                    </div>
+                    <!-- The box on the middle of the second line -->
+                    <div class="col-md-4 col-xs-4 l-box-t-3">
+                        <div class="l-box-t-greybox1"></div>
+                        <div>
+                            <div class="ppt-box">PPT</div>
+                            <div class="cross">XXXXXXXXXXXXXXXX</div>
+                        </div>
+                        <div class="read">35545阅读 | 160下载</div>
+                    </div>
+                    <!-- The box on the right of the second line -->
+                    <div class="col-md-4 col-xs-4 l-box-t-3">
+                        <div class="l-box-t-greybox1"></div>
+                        <div>
+                            <div class="ppt-box">PPT</div>
+                            <div class="cross">XXXXXXXXXXXXXXXX</div>
+                        </div>
+                        <div class="read">39636阅读 | 317下载</div>
+                    </div>
+                    <!-- The box on the left of the third line -->
+                    <div class="col-md-6 col-xs-6 l-box-t-4">
+                        <div class="l-box-t-greybox2"></div>
+                        <div class="l-box-t-4-text cross">XXXXXXXXXXXXXXXX</div>
+                        <div class="read">3614阅读 | 1讨论</div>
+                    </div>
+                    <!-- The box on the right of the third line -->
+                    <div class="col-md-6 col-xs-6 l-box-t-4">
+                        <div class="l-box-t-greybox2"></div>
+                        <div class="l-box-t-4-text cross">XXXXXXXXXXXXXXXX</div>
+                        <div class="read">3528阅读 | 5讨论</div>
+                    </div>
+                    <!-- The box on the left of the fourth line -->
+                    <div class="col-md-4 col-xs-4 l-box-t-3">
+                        <div class="l-box-t-greybox1">
+                            <div class="fa fa-play-circle fa-2x"></div>
+                        </div>
+                        <div class="l-box-t-3-text cross">XXXXXXXXXXXX</div>
+                        <div class="read">894播放 | 0讨论</div>
+                    </div>
+                    <!-- The box on the middle of the fourth line -->
+                    <div class="col-md-4 col-xs-4 l-box-t-3">
+                        <div class="l-box-t-greybox1">
+                            <div class="fa fa-play-circle fa-2x"></div>
+                        </div>
+                        <div class="l-box-t-3-text cross">XXXXXXXXXXXX</div>
+                        <div class="read">794播放 | 0讨论</div>
+                    </div>
+                    <!-- The box on the right of the fourth line -->
+                    <div class="col-md-4 col-xs-4 l-box-t-3">
+                        <div class="l-box-t-greybox1">
+                            <div class="fa fa-play-circle fa-2x"></div>
+                        </div>
+                        <div class="l-box-t-3-text cross">XXXXXXXXXXXX</div>
+                        <div class="read">729播放 | 0讨论</div>
+                    </div>
+                    <!-- The box of the fifth line -->
+                    <div class="col-md-4 col-xs-4 l-box-t-5" style="border-right: 0;">
+                        <div class="l-box-t-greybox1"></div>
+                    </div>
+                    <div class="col-md-8 col-xs-8 l-box-t-5 cross" style="border-left: 0;">
+                        <div class="l-box-t-5-title">XXXXXXXXXXXXXXXX</div>
+                        <div class="l-box-t-5-text">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                        <div class="read text-right">3276阅读 | 2讨论</div>
+                    </div>
+                    <!-- The box of the sixth line -->
+                    <div class="col-md-12 col-xs-12 l-box-t-6 cross">
+                        <div class="col-md-12 col-xs-12">
+                            <div class="l-box-t-5-title">XXXXXXXXXXXXXXXX</div>
+                            <div class="l-box-t-6-text">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                            <div class="read text-right">4006阅读 | 13讨论</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add the extra clearfix for only the required viewport -->
+            <div class="clearfix visible-xs-block"></div>
+            <!-- Sidebar -->
+            <div class="col-md-4 col-xs-4">
+                <!-- The first box -->
+                <div class="r-box-f">
+                    <div class="r-box-f-top">
+                        <div class="r-box-f-text">XXXXXXXXXXXXXXXXXXXXXXXX</div>
+                        <div class="r-box-f-strip"></div>
+                    </div>
+                    <div class="r-box-f-bottom">
+                        <div>330
+                            <font color="#7A798E">XXXX</font>
+                        </div>
+                        <div>280
+                            <font color="#7A798E">XXXX</font>
+                        </div>
+                        <div>650
+                            <font color="#7A798E">XXXX</font>
+                        </div>
+                        <div>1144
+                            <font color="#7A798E">XXXX</font>
+                        </div>
+                    </div>
+                </div>
+                <!-- The second box -->
+                <div class="r-box-s">
+                    <div>XXXX</div>
+                    <a href="">更多 ></a>
+                </div>
+                <!-- The third box -->
+                <div class="r-box-t">
+                    <div class="r-box-t-greybox">
+                        <div class="r-box-t-greybox-start">
+                            <div>即将开始</div>
+                        </div>
+                    </div>
+                    <div class="r-box-t-title">XXXXXXXXXXXXXXXX</div>
+                    <div class="r-box-t-time">4月9日 13:00 - 18:00</div>
+                    <div class="r-box-t-ct">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                    <div class="r-box-t-apply">2人已报名 | 2人关注</div>
+                </div>
+                <!-- The fourth box -->
+                <div class="r-box-t">
+                    <div class="r-box-t-greybox">
+                        <div class="r-box-t-greybox-start start-top">
+                            <div>即将开始</div>
+                        </div>
+                    </div>
+                    <div class="r-box-t-title">XXXXXXXXXXXXXXXX</div>
+                    <div class="r-box-t-time">4月21日 9:15 - 4月23日 17:25</div>
+                    <div class="r-box-t-ct">XXXXXXXXXXXXXXXXXXX</div>
+                    <div class="r-box-t-apply">2人已报名 | 0人关注</div>
+                </div>
+                <!-- The fifth box-->
+                <div class="r-box-i">
+                    <div class="r-box-i-top">
+                        <div>XXXXX
+                            <font color="#009eff">XXX</font>
+                        </div>
+                        <a href="">更多 ></a>
+                    </div>
+                    <div class="r-box-i-greybox">
+                        <div class="r-box-i-greybox-hiddenbox"></div>
+                        <div class="r-box-i-blackbox">第128期</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../shared/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../shared/js/popper.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+</body>
+
+</html>

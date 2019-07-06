@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Xuan (you@example.org)
+ * @date    2018-04-01 22:22:22
+ * @version $Id$
+ */
+body {
+    width: 90%;
+    min-width: 600px;
+    background-color: #FFF;
+    background-image: url("shared/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+iframe{
+    margin: 0 0 0px 350px;
+}
+
+.header {
+    width: 95%;
+    height: 40px;
+    font-family: Century Gothic;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: right;
+    color: rgb(168, 176, 225);
+}
+
+.container {
+    min-width: 62em;
+    position: absolute;
+    top: 220px;
+    left: 40%;
+}
+
+.footer{
+    position: absolute;
+    top: 600px;
+    left: 43%;
+    text-align: center;
+    color: rgb(168, 176, 225);
+}
+
+.bg {
+    color: blue;
+}
+
+.bg:hover {
+    color: purple;
+    font-weight: bold;
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Xuan (you@example.org)
+ * @date    2018-04-01 08:51:26
+ * @version $Id$
+ */
+
+body {
+    background-color: #FFF;
+    background-image: url("../shared/images/crossbeam.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.lie {
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.bg {
+    color: blue;
+}
+
+.bg:hover {
+    color: purple;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}

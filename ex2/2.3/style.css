@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-15 13:12:03
+ * @version $Id$
+ */
+
+body {
+    width: 500px;
+    background-color: #333333;
+}
+
+.today {
+    width: 455px;
+    background-color: #e66b6b;
+    border-collapse: collapse;
+    text-indent: 25px;
+}
+
+.today tr:first-child {
+    height: 170px;
+    vertical-align: bottom;
+    font-family: "Sans-serif";
+    font-weight: bold;
+    font-size: 110px;
+    color: #FFF;
+}
+
+.today tr:last-child {
+    height: 82px;
+    line-height: 25px;
+    vertical-align: top;
+    font-family: Calibri;
+    font-weight: thin;
+    font-size: 62px;
+    color: #FFF;
+}
+
+.day {
+    width: 455px;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    /*每列均宽*/
+}
+
+.day tr {
+    height: 35px;
+    vertical-align: middle;
+    background-color: #FFF;
+    color: #111;
+    font-family: "Century Gothic";
+    font-size: 14px;
+}
+
+.day tr:first-child {
+    height: 65px;
+    line-height: 35px;
+    vertical-align: bottom;
+    color: #e66b6b;
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.day tr:last-child {
+    height: 62px;
+    line-height: 35px;
+    vertical-align: top;
+}
+
+.d-first {
+    width: 28px;
+}
+
+.d-last {
+    width: 26px;
+}
+
+#gray {
+    color: #cacaca;
+}
+
+#pink {
+    color: #e66b6b;
+}
+
+#tpink {
+    color: #ec826b;
+}

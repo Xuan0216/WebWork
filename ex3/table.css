@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Xuan (you@example.org)
+ * @date    2018-03-30 09:52:54
+ * @version $Id$
+ */
+ 
+body {
+    background-color: #FFF;
+}
+
+#tbl {
+    border: 10px solid rgb(168, 176, 225);
+    border-collapse: collapse;
+}
+
+tr {
+    height: 120px;
+}
+
+td {
+    width: 240px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    border: 1px solid lavenderblush;
+}

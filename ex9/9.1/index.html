@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome.min.css -->
+    <link href="../shared/css/all.css" rel="stylesheet">
+    <!-- The style that is defined to cover the original style -->
+    <link href="style.css" rel="stylesheet">
+    <title>使用Bootstrap的移动适配特性以及弹性网格布局，实现手机系统的布局</title>
+</head>
+
+<body>
+    <div class="containe-fluid">
+        <!-- First part——The navigation bar -->
+        <div class="row header">
+            <div class="col-xs-1 col-md-1 col-1">
+                <select>
+                    <option>XX</option>
+                    <option>YY</option>
+                    <option>ZZ</option>
+                </select>
+            </div>
+            <div class="col-xs-10 col-md-10 col-10" style="display: flex;">
+                <form class="form-inline">
+                    <button class="col-xs-2 col-md-2 col-2" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    <input class="col-xs-10 col-md-10 col-10 form-control header-search" type="search" value="XXXXXXX">
+                </form>
+            </div>
+            <div class="col-xs-1 col-md-1 col-1" style="height: 50px;">
+                <i class="fa fa-user"></i>
+                <div class="user-intro">XX</div>
+            </div>
+        </div>
+        <!-- Second part——Eight circles -->
+        <div class="row circler text-center">
+            <div class="col-xs-3 col-md-3 col-3">
+                <div class="fa fa-circle fa-sl orange"></div>
+                <div class="circle-intro">XX</div>
+            </div>
+            <div class="col-xs-3 col-md-3 col-3">
+                <div class="fa fa-circle fa-sl red"></div>
+                <div class="circle-intro">XX</div>
+            </div>
+            <div class="col-xs-3 col-md-3 col-3">
+                <div class="fa fa-circle fa-sl blue"></div>
+                <div class="circle-intro">XX</div>
+            </div>
+            <div class="col-xs-3 col-md-3 col-3">
+                <div class="fa fa-circle fa-sl orange"></div>
+                <div class="circle-intro">XX</div>
+            </div>
+            <div class="col-xs-3 col-md-3 col-3">
+                <div class="fa fa-circle fa-sl skyblue"></div>
+                <div class="circle-intro">XX</div>
+            </div>
+            <div class="col-xs-3 col-md-3 col-3">
+                <div class="fa fa-circle fa-sl yellow"></div>
+                <div class="circle-intro">XX</div>
+            </div>
+            <div class="col-xs-3 col-md-3 col-3">
+                <div class="fa fa-circle fa-sl skyblue"></div>
+                <div class="circle-intro">XX</div>
+            </div>
+            <div class="col-xs-3 col-md-3 col-3">
+                <div class="fa fa-circle fa-sl orange"></div>
+                <div class="circle-intro">XX</div>
+            </div>
+        </div>
+        <div class="row divider"></div>
+        <!-- Third part -->
+        <div class="float-row">
+            <div class="col-xs-12 col-md-12" style="height: 6px;"></div>
+            <div class="col-xs-4 col-md-4 col-4 shower-h">
+                <div class="shower-title green">XXXX</div>
+                <div class="shower-intro grey">XXXXXXXX</div>
+                <div class="shower-img"></div>
+            </div>
+            <div class="col-xs-8 col-md-8 col-8 shower-w">
+                <div class="col-xs-8 col-md-8 col-8 shower-w-intro">
+                    <div class="shower-title red">XXXX</div>
+                    <div class="grey">XXXXXXXXX</div>
+                </div>
+                <div class="buyer-img"></div>
+            </div>
+            <div class="col-xs-4 col-md-4 col-4 shower-w-lt">
+                <div class="shower-title purple">XXXX</div>
+                <div class="shower-img-s"></div>
+            </div>
+            <div class="col-xs-4 col-md-4 col-4 shower-w-rt">
+                <div class="shower-title orange">XXXX</div>
+                <div class="shower-intro grey">XXXXXXXX</div>
+                <div>
+                    <span class="bg-black">10</span>:
+                    <span class="bg-black">56</span>:
+                    <span class="bg-black">24</span>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="row divider"></div>
+        <!-- Fourth part -->
+        <div class="row buyer">
+            <div class="col-xs-6 col-md-6 col-6 buyer-h" style="border-right: 1px solid #E0DAD0;">
+                <div class="col-xs-7 col-md-7 col-7 buyer-info">
+                    <div class="buyer-title orange">XXXX</div>
+                    <div class="buyer-intro grey">XXXXXXXX</div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-6">
+                    <div class="buyer-img"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-6 col-6 buyer-h">
+                <div class="col-7 buyer-info">
+                    <div class="buyer-title yellow">XXXX</div>
+                    <div class="buyer-intro grey">XXXXXXXX</div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-6">
+                    <div class="buyer-img"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row divider"></div>
+        <!-- Fifth part -->
+        <div class="container">
+            <!-- Top line -->
+            <div class="row rush-top">
+                <div class="col-xs-12 col-md-12 col-12 rush-title">XXXX</div>
+            </div>
+            <div class="col-xs-12 col-md-12 divider-s"></div>
+            <!-- First rush line -->
+            <div class="row rush-line">
+                <div class="col-xs-12 col-md-12 col-12 rush">
+                    <div class="col-xs-3 col-md-3 col-3 rush-img">
+                        <div class="rush-triangle-m">
+                            <div class="rush-triangle-s"></div>
+                        </div>
+                        <div class="rush-triangle-word">免预购</div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-6 rush-info">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 col-12 rush-title">XXXX</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 col-12 grey">XXXXXXXXXXXXXXXX</div>
+                        </div>
+                        <div class="row rush-price">
+                            <div class="col-xs-12 col-md-12 col-12">
+                                <span class="light-green">XX</span>
+                                <span class="light-green-s">元</span>
+                                <span class="rush-special">多优惠+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 col-3 rush-count">
+                        <span class="rush-sold">已售549516</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 divider-s"></div>
+            <!-- Second rush line -->
+            <div class="row rush-line">
+                <div class="col-xs-12 col-md-12 col-12 rush">
+                    <div class="col-xs-3 col-md-3 col-3 rush-img">
+                        <div class="rush-triangle-m">
+                            <div class="rush-triangle-s"></div>
+                        </div>
+                        <div class="rush-triangle-word">免预购</div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-6 rush-info">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 col-12 rush-title">XXXX</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 col-12 grey">XXXXXXXXXXXXXXXXXX</div>
+                        </div>
+                        <div class="row rush-price">
+                            <div class="col-xs-12 col-md-12 col-12">
+                                <span class="light-green">XX</span>
+                                <span class="light-green-s">元</span>
+                                <span class="rush-special">多优惠+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 col-3 rush-count">
+                        <span class="rush-sold">已售99651</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 divider-s"></div>
+            <!-- Third rush line -->
+            <div class="row rush-line">
+                <div class="col-xs-12 col-md-12 col-12 rush">
+                    <div class="col-xs-3 col-md-3 col-3 rush-img">
+                        <div class="rush-triangle-m">
+                            <div class="rush-triangle-s"></div>
+                        </div>
+                        <div class="rush-triangle-word">免预购</div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-6 rush-info">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 col-12 rush-title">XXXX</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 col-12 grey">XXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                        </div>
+                        <div class="row rush-price">
+                            <div class="col-xs-12 col-md-12 col-12">
+                                <span class="light-green">XX</span>
+                                <span class="light-green-s">元</span>
+                                <span class="fa-ss grey">门市价:XX元</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 col-3 rush-count">
+                        <span class="rush-sold">已售35963</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 divider-s"></div>
+            <!-- Fourth rush line -->
+            <div class="row rush-line">
+                <div class="col-xs-12 col-md-12 col-12 rush">
+                    <div class="col-xs-3 col-md-3 col-3 rush-img"></div>
+                    <div class="col-xs-6 col-md-6 col-6 rush-info">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 col-12 rush-title">XXXX</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 col-12 grey">XXXXXXXXXXXXXXXXXXXX</div>
+                        </div>
+                        <div class="row rush-price">
+                            <div class="col-xs-12 col-md-12 col-12">
+                                <span class="light-green">XXX</span>
+                                <span class="light-green-s">元</span>
+                                <span class="fa-ss grey">门市价:XXX元</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 col-md-3 col-3 rush-count">
+                        <span class="rush-sold">已售738</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 divider-s"></div>
+        </div>
+        <!-- Sixth part——footer -->
+        <div class="row footer">
+            <div class="col-xs-10 col-md-10 col-10 footer-info">XXXXXX</div>
+            <div class="col-xs-2 col-md-2 col-2 footer-link"> 
+                <button>></button>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../shared/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../shared/js/popper.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+</body>
+
+</html>

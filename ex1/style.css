@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Xuan (you@example.org)
+ * @date    2018-03-16 10:26:23
+ * @version $Id$
+ */
+body {
+    background-image: url("../shared/images/bg1.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    color: #6A6AFF;
+}
+
+.bg:hover {
+    color: purple;
+    font-weight: bold;
+}
+
+.snore {
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

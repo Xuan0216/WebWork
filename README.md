@@ -2,7 +2,11 @@
 
 🔍网页汇总：Web程序设计
 
+:clipboard:日常编辑：Sublime Text
+
 😊成品网址：https://xuan0216.github.io/WebWork/
+
+
 
 # 学习内容
 
@@ -50,6 +54,8 @@
 
 - 使用Bootstrap的移动适配特性以及弹性网格布局，实现手机系统的布局。
 - 使用Bootstrap的移动适配特性以及弹性网格布局，实现桌面系统的布局。
+
+
 
 # 课程资源
 

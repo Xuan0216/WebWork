@@ -2,7 +2,7 @@
 
 🔍网页汇总：Web程序设计
 
-:clipboard:日常编辑：Sublime Text
+:clipboard: 编辑工具：Sublime Text or HBuilder
 
 😊成品网址：https://xuan0216.github.io/WebWork/
 
